@@ -5,4 +5,8 @@
   <project path="device/samsung/smdk4412-common" name="hungphanvpphan/android_device_samsung_smdk4412-common" revision="n7.1.2" />
   <project path="kernel/samsung/smdk4412" name="LineageOS/android_kernel_samsung_smdk4412" remote="github" revision="cm-14.1"/>
  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-14.1"/>
+<project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" clone-depth="1" remote="github" revision="cm-14.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1"  />
+
+
 </manifest>
